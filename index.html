@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo</title>
+    <title>Calculadora TDD</title>
 </head>
 <body>
-    <h1>TesteetseT</h1>
+    <h1>Calculadora TDD</h1>
+
+    <form>
+            <input type="text" id="text_op">
+            <button name="button" onclick="calcula()"></button>
+            <h3 class="resultadi"></h3>
+    </form>
+
+
+
 </body>
 </html>
+
+<script>
+
+    function calcula(){
+        a = document.getElementById.text("text_op").value;
+        resultado = eval(a);
+        document.getElementsByClassName("resultado").innerHTML = resultado;
+    }
+
+</script>
